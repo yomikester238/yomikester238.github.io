@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>yomikester238.github.io/</title>
+   
+   <link></link>
+   <description>The coolest blog ever. And your journey begins here yomikeseter</description>
+   <language>en-uk</language>
+   <managingEditor> </managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>A full test, with Michael's Face</title>
+	  <link>//test-post</link>
+	  <author></author>
+	  <pubDate>2021-03-24T01:00:00+00:00</pubDate>
+	  <guid>//test-post</guid>
+	  <description><![CDATA[
+	     <p>Hello, this is a test.</p>
+
+<h2 id="this-should-be-big">This should be big</h2>
+<h3 id="this-should-be-smaller">This should be smaller</h3>
+
+<p><img src="/assets/images/mike.jpg" alt="Mike" /></p>
+
+<p>This is the end of the test.</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
