@@ -7,7 +7,7 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-name: "Mike's Coolio blog"
+name: "Ultra Mega Blog of Doom"
 description: "The coolest blog ever. And your journey begins here yomikeseter"
 
 short_url: 'yomikester238.github.io/'
@@ -33,7 +33,7 @@ plugins: [jekyll-paginate]
 # ...
 
 
-# Settings for builing master branch with travis-ci
+# Settings for building master branch with travis-ci
 # with jekyll-travis
 
 # Settings for deploy rake task
