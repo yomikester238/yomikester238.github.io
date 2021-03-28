@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Page Meta -->
-    <title>Author</title>
+    <title>yomikester238's Home!</title>
     <meta name="description" content="A YouTuber, Graphic Design Artist, and ultimately Minecrafter's site!" />
 
     <!-- Mobile Meta -->
@@ -26,31 +26,31 @@
     <style>.hljs { background: none; }</style>
 
     <!-- Ghost outputs important style and meta data with this tag -->
-        <link rel="canonical" href="//author/abraham/" />
+        <link rel="canonical" href="//tag/build/" />
     <meta name="referrer" content="origin" />
     <link rel="next" href="/page2/" />
 
     <meta property="og:site_name" content="yomikester238's Home!" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Author" />
+    <meta property="og:title" content="yomikester238's Home!" />
     <meta property="og:description" content="A YouTuber, Graphic Design Artist, and ultimately Minecrafter's site!" />
-    <meta property="og:url" content="//author/abraham/" />
-    <meta property="og:image" content="/assets/images/cover4.jpg" />
+    <meta property="og:url" content="//tag/build/" />
+    <meta property="og:image" content="/assets/images/cover2.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Author" />
+    <meta name="twitter:title" content="yomikester238's Home!" />
     <meta name="twitter:description" content="A YouTuber, Graphic Design Artist, and ultimately Minecrafter's site!" />
-    <meta name="twitter:url" content="//author/abraham/" />
-    <meta name="twitter:image:src" content="/assets/images/cover4.jpg" />
+    <meta name="twitter:url" content="//tag/build/" />
+    <meta name="twitter:image:src" content="/assets/images/cover2.jpg" />
 
     <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "Website",
     "publisher": "yomikester238's Home!",
-    "name": "Author",
-    "url": "//author/abraham/",
-    "image": "/assets/images/cover4.jpg",
+    "name": "yomikester238's Home!",
+    "url": "//tag/build/",
+    "image": "/assets/images/cover2.jpg",
     "description": "A YouTuber, Graphic Design Artist, and ultimately Minecrafter's site!"
 }
     </script>
@@ -60,7 +60,7 @@
 
 
 </head>
-<body class="author-template nav-closed">
+<body class="tag-template nav-closed">
 
     <!-- The blog navigation links -->
     <div class="nav">
@@ -76,7 +76,7 @@
         <li class="nav-fiction " role="presentation"><a href="/tag/fiction">Fiction</a></li>
         <li class="nav-author " role="presentation"><a href="/author/casper">Instagram</a></li>
         <li class="nav-author " role="presentation"><a href="https://www.planetminecraft.com/member/yomikester238/">Planet MC</a></li>
-        <li class="nav-author  nav-current" role="presentation"><a href="/author/abraham">Abraham</a></li>
+        <li class="nav-author " role="presentation"><a href="/author/abraham">Abraham</a></li>
         <li class="nav-author " role="presentation"><a href="/author/martin">Martin</a></li>
         <li class="nav-author " role="presentation"><a href="/author/lewis">Lewis</a></li>
     </ul>
@@ -88,68 +88,44 @@
     <div class="site-wrapper">
 
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- < default}} -->
+        <!-- dynamically overriding backgrounds for tags as well as descriptions -->
+
+
+<!-- default -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-<!-- The big featured header -->
-
-<!-- Everything inside the #author tags pulls data from the author -->
-<!-- #author  -->
-    <header class="main-header author-head " style="background-image: url(/assets/images/cover4.jpg) ">
-        <nav class="main-nav overlay clearfix">
-            <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
-            
-                <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-            
-        </nav>
-    </header>
-
-    <section class="author-profile inner">
+<!-- If we have a tag cover, display that - else blog cover - else nothing -->
+<header class="main-header tag-head " style="background-image: url(/assets/images/cover2.jpg) ">
+    <nav class="main-nav overlay clearfix">
+        <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
         
-            
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">Build</h1>
+            <h2 class="page-description">
             
-        
+			    A 1-post collection
             
-                
-                <figure class="author-image">
-                    <div class="img" style="background-image: url(/assets/images/abraham.jpg)"><span class="hidden">Abraham Lincoln's Picture</span></div>
-                </figure>
-                
-                <h1 class="author-title">Abraham Lincoln</h1>
-                
-                    <div style="display:inline; text-align: justify; text-justify: inter-word;">
-                        <h2 class="author-bio">I was the 16th president of the USA until I was assassinated in April of 1963. I led the US through its Civil War - its bloodiest and greatest moral, constitutional and political crisis.</h2>
-                    </div>
-                
-                <div class="author-meta">
-                    <span class="author-location icon-location">Kentucky, USA</span>
-                    <span class="author-link icon-link"><a href="http://jekyller.github.io/jasper/">jekyller.github.io/jasper</a></span>
-                    <!-- <span class="author-stats"><i class="icon-stats"></i> [[plural ../pagination.total empty='No posts' singular='% post' plural='% posts']]</span> -->
-                    <span class="author-stats"><i class="icon-stats"></i>1 post</span>
-                </div>
-            
-        
-            
-        
-            
-        
-    </section>
-<!-- /author -->
+            </h2>
+        </div>
+    </div>
+</header>
 
 <!-- The main content area on the homepage -->
 <main id="content" class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs  -->
+    <!-- The tag below includes the post loop - partials/loop.hbs -->
         <!-- Previous/next page links - only displayed on page 2+ -->
     <div class="extra-pagination inner">
         
             <nav class="pagination" role="pagination">
     
     <span class="page-number"> Page 1 of 1 </span>
-    
+     
 </nav>
-
         
     </div>
 
@@ -157,10 +133,18 @@
     
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="/gettysburg-address">Gettysburg Address</a></h2>
+            <h2 class="post-title"><a href="/test-post">A full test, with Michael's Face</a></h2>
         </header>
         <section class="post-excerpt">
-            <p>Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men... <a class="read-more" href="/gettysburg-address">&raquo;</a></p>
+            <p>My name is Gabe.
+
+This should be big
+This should be smaller
+
+
+
+This is the end of the test.
+ <a class="read-more" href="/test-post">&raquo;</a></p>
         </section>
         <footer class="post-meta">
             
@@ -168,12 +152,6 @@
             
                 
             
-                
-
-                <img class="author-thumb" src="/assets/images/abraham.jpg" alt="Author image" nopin="nopin" />
-                <!-- author -->
-                <a href='/author/abraham'>Abraham Lincoln</a>
-
                 
             
                 
@@ -186,11 +164,15 @@
                 on
                 
                     
-                       <a href='/tag/fiction'>Fiction</a>
+                       <a href='/tag/minecraft'>Minecraft</a>,
+                    
+                
+                    
+                       <a href='/tag/build'>Build</a>
                     
                 
             
-            <time class="post-date" datetime="1863-11-19">19 Nov 1863</time>
+            <time class="post-date" datetime="2021-03-24">24 Mar 2021</time>
         </footer>
     </article>
     
@@ -200,9 +182,8 @@
         <nav class="pagination" role="pagination">
     
     <span class="page-number"> Page 1 of 1 </span>
-    
+     
 </nav>
-
     
 
 
