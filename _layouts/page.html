@@ -19,6 +19,20 @@ class: 'page-template'
         <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {% endif %}
     </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">
+            {% if page.title %}
+                {{ page.title | capitalize }}
+            {% endif %}
+            </h1>
+            <h2 class="page-description">
+            {% if page.tag_description %}
+                {{ page.tag_description }}
+            {% endif %}
+            </h2>
+        </div>
+    </div>
 </header>
 
 <main class="content" role="main">
@@ -26,7 +40,7 @@ class: 'page-template'
         <!-- Everything inside the #post tags pulls data from the post -->
 
         <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
+            <h1 class="post-title"><u>{{ page.subtitle }}</u></h1>
         </header>
 
         <section class="post-content">

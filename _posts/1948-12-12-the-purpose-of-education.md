@@ -4,8 +4,8 @@ cover: 'assets/images/cover5.jpg'
 navigation: True
 title: The Purpose of Education
 date: 1948-12-12 10:18:00
-tags: speeches fiction
-subclass: 'post tag-speeches'
+tags: music fiction
+subclass: 'post tag-music'
 logo: 'assets/images/ghost.png'
 author: martin
 categories: martin
