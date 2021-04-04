@@ -12,20 +12,36 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
-	  <title>A full test, with Michael's Face</title>
+	  <title>A full test, but this time with Gabe's?</title>
 	  <link>//test-post</link>
 	  <author></author>
-	  <pubDate>2021-03-24T01:00:00+00:00</pubDate>
+	  <pubDate>2021-04-02T01:00:00+00:00</pubDate>
 	  <guid>//test-post</guid>
 	  <description><![CDATA[
-	     <p>My name is Gabe.</p>
+	     <p>My name is Mike.</p>
 
 <h2 id="this-should-be-big">This should be big</h2>
 <h3 id="this-should-be-smaller">This should be smaller</h3>
 
 <p><img src="/assets/images/mike.jpg" alt="Mike" /></p>
 
-<p>This is the end of the test.</p>
+<body>
+<div class="bs-example">
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                </div>
+                <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe id="cartoonVideo" class="embed-responsive-item" width="560" height="315" src="//www.youtube.com/embed/OggoRqPFb1Y" allowfullscreen=""></iframe>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+This is the end of the test.
+</body>
 
 	  ]]></description>
 	</item>
